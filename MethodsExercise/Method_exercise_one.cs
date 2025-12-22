@@ -22,7 +22,23 @@ namespace MethodsExercise
                 $" favorite {YouColor} blanket, When {YouOther} screamed {YouName} I just saw a {YouAnimal} jump out of that tree.");
         }
 
- 
+        public static int AddTwoNumbers(int num1, int num2)
+        {
+            return num1 + num2;
+        }
+
+        public static int SubTwoNumbers(int num1, int num2)
+        {
+            return num1 - num2;
+        }
+
+        public static int MultiTwoNumbers(int num1, int num2)
+        {
+            return num1 * num2;
+        }
+
+        public static int DivTwoNumbers(int num1, int num2) {
+            return num1 / num2; }
 
 
 
@@ -41,7 +57,10 @@ namespace MethodsExercise
         static void Main(string[] args)
         {
 
-            You();
+            Console.WriteLine(AddTwoNumbers(10, 20));
+            Console.WriteLine(SubTwoNumbers(10, 20));
+            Console.WriteLine(MultiTwoNumbers(10, 1));
+            Console.WriteLine(DivTwoNumbers(20, 10));
 
 
 
