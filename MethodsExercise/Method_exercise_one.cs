@@ -1,25 +1,25 @@
 ﻿
 namespace MethodsExercise
 {
-    public class Method_exercise_one
+    public class Program
     {
         public static void You()
         {
             Console.WriteLine("What is your name?");
-            string YouName = Console.ReadLine();
-            Console.WriteLine($"{YouName} what is your favorite color?");
-            string YouColor = Console.ReadLine();
-            Console.WriteLine($"{YouName} what is your significant others name");
-            string YouOther = Console.ReadLine();
-            Console.WriteLine($"{YouName} what is your favorite animal");
-            string YouAnimal = Console.ReadLine();
-            Console.WriteLine($"{YouName} what is your favorite food");
-            string YouFood = Console.ReadLine();
-            Console.WriteLine($"{YouName} Last question, what is your favorite type of music");
-            string YouMusic = Console.ReadLine();
+            string youName = Console.ReadLine();
+            Console.WriteLine($"{youName} what is your favorite color?");
+            string youColor = Console.ReadLine();
+            Console.WriteLine($"{youName} what is your significant others name");
+            string youOther = Console.ReadLine();
+            Console.WriteLine($"{youName} what is your favorite animal");
+            string youAnimal = Console.ReadLine();
+            Console.WriteLine($"{youName} what is your favorite food");
+            string youFood = Console.ReadLine();
+            Console.WriteLine($"{youName} Last question, what is your favorite type of music");
+            string youMusic = Console.ReadLine();
             Console.WriteLine(
-                $"It was a comfortable spring day when {YouName} and {YouOther} were walking in the woods for a picnic of {YouFood}. They were relaxing to some {YouMusic} on {YouName}s" +
-                $" favorite {YouColor} blanket, When {YouOther} screamed {YouName} I just saw a {YouAnimal} jump out of that tree.");
+                $"It was a comfortable spring day when {youName} and {youOther} were walking in the woods for a picnic of {youFood}. They were relaxing to some {youMusic} on {youName}s" +
+                $" favorite {youColor} blanket, When {youOther} screamed {youName} I just saw a {youAnimal} jump out of that tree.");
         }
 
         public static int AddTwoNumbers(int num1, int num2)
@@ -41,26 +41,13 @@ namespace MethodsExercise
             return num1 / num2; }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
         static void Main(string[] args)
         {
             You();
-            Console.WriteLine(AddTwoNumbers(10, 20));
-            Console.WriteLine(SubTwoNumbers(10, 20));
-            Console.WriteLine(MultiTwoNumbers(10, 1));
-            Console.WriteLine(DivTwoNumbers(20, 10));
+            //Console.WriteLine(AddTwoNumbers(10, 20));
+            //Console.WriteLine(SubTwoNumbers(10025, 2520));
+            //Console.WriteLine(MultiTwoNumbers(3, 9));
+            //Console.WriteLine(DivTwoNumbers(2020, 200));
 
 
 
